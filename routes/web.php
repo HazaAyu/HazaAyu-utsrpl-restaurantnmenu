@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\OrderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,4 +28,5 @@ Route::resource('menus', MenuController::class);
 Route::resource('categories', CategoryController::class);
 
 // Route untuk Pesanan
+Route::resource('orders', OrderController::class);
 // Route::resource('orders', OrderController::class);
